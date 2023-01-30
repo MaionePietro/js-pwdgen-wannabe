@@ -27,4 +27,3 @@ let concatenazione = nome + '-' + cognome + '-' + colore + '-' + numero;
 document.getElementById('profilo_id').innerHTML =nome + ' ' + cognome;
 document.getElementById('pass_id').innerHTML = concatenazione;
 console.log(concatenazione + ' fine');
-
