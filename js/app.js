@@ -3,7 +3,7 @@ let nome, cognome, colore, numero;
 
 // 1 Chiedi all’utente il suo nome,
 
-nome = prompt('inserisci il tuo nome');
+nome = prompt('inserisci il tuo nome ps:non dimenticare la maiuscola!!');
 console.log(nome);
 // 2 poi chiedi il suo cognome,
 
