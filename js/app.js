@@ -21,7 +21,7 @@ numero = prompt('inserisci un numero');
 numero = parseInt(numero);
 console.log(numero);
 
-// 5 Infine scrivi sulla pagina il risultato della concatenazione di: <nome><cognome><colorePreferito><numero></numero>
+// 5 Infine scrivi sulla pagina il risultato della concatenazione di: <nome><cognome><colorePreferito><numero>
 
 let concatenazione = nome + '-' + cognome + '-' + colore + '-' + numero; 
 document.getElementById('profilo_id').innerHTML =nome + ' ' + cognome;
