@@ -5,7 +5,6 @@ let nome, cognome, colore, numero;
 
 nome = prompt('inserisci il tuo nome');
 console.log(nome);
-
 // 2 poi chiedi il suo cognome,
 
 cognome = prompt('inserisci il tuo cognome');
@@ -19,11 +18,13 @@ console.log(colore);
 // 4 e un numero
 
 numero = prompt('inserisci un numero');
+numero = parseInt(numero);
 console.log(numero);
 
 // 5 Infine scrivi sulla pagina il risultato della concatenazione di: <nome><cognome><colorePreferito><numero></numero>
 
 let concatenazione = nome + '-' + cognome + '-' + colore + '-' + numero; 
-console.log(console.log);
-document.getElementById('titolo_id').innerHTML =concatenazione;
+document.getElementById('profilo_id').innerHTML =nome + ' ' + cognome;
+document.getElementById('pass_id').innerHTML = concatenazione;
+console.log(concatenazione + ' fine');
 
